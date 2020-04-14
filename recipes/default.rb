@@ -48,17 +48,6 @@ execute 'install pytest' do
   action :run
 end
 
-# file '/home/ubuntu/app/src/__init__.py' do
-#   action :create
-# end
-#
-# file '/home/ubuntu/app/src/csv_generators/__init__.py' do
-#   action :create
-# end
-#
-# file '/home/ubuntu/app/src/itjobswatch_html_readers/__init__.py' do
-#   action :create
-# end
 
 directory '/' do
   action :create
